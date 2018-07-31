@@ -3,8 +3,10 @@ title: Create a Horizontal Line Using the hr Element
 ---
 ## Create a Horizontal Line Using the hr Element
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/applied-visual-design/create-a-horizontal-line-using-the-hr-element/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Note that the **hr** tag is self-closing.  This mean you just use &lt;hr&gt;, not &lt;hr /&gt; nor &lt;hr>&lt;/hr&gt;.  
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Also note that the **hr** tag defines a break in the flow of text and so should be outside the paragraph (&lt;p&gt;) tag.
+  
+Finally, if you are still having trouble, modify your code to place the emphasis tag (&lt;em&gt;) outside of the paragraph (&lt;p&gt;) tag.  This works around a current issue with the grader.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  
